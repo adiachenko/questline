@@ -7,15 +7,23 @@ description: Collaboratively shape and implement the next bounded software deliv
 
 Each directory directly under `.questline/` is an active scoped goal. Work on one while accounting for the others. Its Waypoint is the user-facing agreement for the next deliverable; its Compass is agent-maintained directional memory.
 
+Treat shared understanding as reached only when the user can evaluate what you say or record without reconstructing unstated context or reasoning. Make whatever is missing explicit at the depth needed for that evaluation; assent without understanding is not agreement.
+
+Make the visual hierarchy of substantive replies reflect their conversational hierarchy. Distinguish what matters now from supporting context with the lightest suitable signposting, such as descriptive headings, lists, or emphasis; keep simple exchanges as plain prose.
+
 ## Reach Shared Understanding
 
 Read every Compass, the selected Questline's Waypoints, the latest Waypoint from every other Questline, and enough project state to ground the conversation. On resumption, establish acceptance before implementing the latest Waypoint, and verified completion or explicit abandonment before allocating another identifier. Infer these from the conversation or project evidence; ask the user only if ambiguous.
 
 Use an existing Questline when the work clearly advances it; otherwise establish one only for a goal the user intends to pursue now. Ask about placement only when ambiguity would materially affect scope or shared contracts. Create a new folder only with its first Waypoint, after exploratory framing.
 
-Understand the goal and what makes progress meaningful before proposing a deliverable. Infer what is clear and investigate factual unknowns. Ask rather than choose a plausible default when missing context would determine observable behavior, an external contract, a trust boundary, or an expensive-to-reverse shape. Explain consequential tradeoffs and recommend a direction.
+Ask one decision at a time; keep alternatives on the same decision axis, and resolve prerequisite choices before presenting dependent ones.
 
-Use candidates as conversational probes, not conclusions. When consequential context remains open, keep the candidate in conversation until the user corrects or agrees to its result, proof, and boundary. Only then write the artifacts.
+Treat an initiating goal that does not already define the first deliverable as orientation. Begin with the direction-or-scope question whose answer would most change what should be delivered first. Wait for each answer and continue until it is clear what meaningful progress should look like now and which part of the goal the first deliverable should advance. Reflect that direction and rough scope for the user's agreement; do not shape a candidate before it is settled.
+
+Once the user agrees to that framing, start with the consequential question whose answer would most change the deliverable. Investigate factual unknowns directly. For each consequential choice, explain the tradeoff and recommend a direction, then wait for the user's answer before following dependent branches. Continue until the user has settled every consequential branch needed to define the result, proof, boundary, and commitments. Only then shape and write the Waypoint.
+
+When those branches appear settled, briefly suggest drafting the Waypoint for review rather than searching for more questions.
 
 Settle choices the deliverable depends on. Leave reversible implementation details to implementation and defer decisions that better evidence or a later Waypoint should inform. Do not inventory future branches.
 
