@@ -66,7 +66,7 @@ Match the identifier across title and filename, derive the slug from the title i
 - consequential commitments, boundaries, limitations, and accepted risks;
 - deliberately deferred adjacent decisions when silence could invite premature commitment, with a revisit trigger when useful.
 
-Write settled intent, not a discussion log, implementation plan, or future-feature catalog. Include detail only to remove material ambiguity or preserve a consequential decision. State every commitment this deliverable depends on directly; references to another Questline are context only.
+Write settled intent, not a discussion log, implementation plan, or future-feature catalog. Include detail only to remove material ambiguity or preserve a consequential decision. Trace every Waypoint claim to settled intent or a verified consequence the deliverable depends on; do not turn comparison examples or incidental consequences into requirements. State every commitment this deliverable depends on directly; references to another Questline are context only.
 
 ## Fortify and Continue
 

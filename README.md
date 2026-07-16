@@ -12,7 +12,7 @@
 
 1. Invoke `/questline` with the description of the goal you want to advance. The agent uses a matching Questline or starts one for a new goal.
 2. Agree with the agent on the next deliverable's direction and rough scope, then work through consequential questions one at a time until its result, proof, and boundaries are settled. The agent then writes the Waypoint to disk and revises that same file with you until you approve it.
-3. Ask the agent to implement the approved Waypoint. If implementation reveals that the Waypoint needs to change, the agent revises it with you and waits for approval before continuing.
+3. Ask the agent to implement the approved Waypoint. When using Codex, Goal mode is recommended for keeping longer implementation runs attached to it. If implementation reveals that the Waypoint needs to change, the agent revises it with you and waits for approval before continuing.
 4. Repeat for the next Waypoint. When you stop pursuing the goal, remove its folder or preserve it elsewhere; every folder left in `.questline/` is active.
 
 ## Installation
