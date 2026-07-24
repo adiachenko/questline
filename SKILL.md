@@ -86,4 +86,6 @@ The maintainability review should favor the simplest clear solution: fewer layer
 
 Address the findings and repeat the reviews until no actionable findings remain.
 
+Treat the Waypoint as verified only when every perspective reports no actionable findings on the same final state of the complete, integrated implementation.
+
 Once the result is implemented and verified, keep the Waypoint current and return control without planning the next one.
