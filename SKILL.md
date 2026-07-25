@@ -80,12 +80,12 @@ Present only the completed draft for review and keep its file current with each 
 
 When requested implementation or later verification, correction, refinement, or simplification continues the same bounded deliverable and the user has not explicitly selected a new-Waypoint boundary, work against the current accepted Waypoint. Never reopen an abandoned or historical Waypoint. Reconcile non-material learning into the current Waypoint as needed to keep the accepted deliverable accurate. If work on that deliverable would materially change its result, proof, public contract, boundary, consequential commitments, or accepted risks, stop implementation, restore its draft marker before revising it, return to shared understanding, and regain acceptance before proceeding. If the work instead forms a genuinely new bounded deliverable, do not fold it into the current Waypoint; follow the allocation rule above. Do not expand the current Waypoint with adjacent features. Apply the same Compass rule throughout implementation.
 
-After implementing a Waypoint, review it from three perspectives, dispatching independent reviewers in parallel when supported and using separate review passes otherwise: correctness, maintainability, and any material security or performance concerns raised by the change.
+After completing the initial implementation of an accepted Waypoint, review that complete, integrated implementation once from three perspectives, dispatching independent reviewers in parallel when supported and using separate review passes otherwise: correctness, maintainability, and any material security or performance concerns raised by the change.
 
 The maintainability review should favor the simplest clear solution: fewer layers, convention over configuration, and no speculative edge-case handling. It should also verify affected tests against applicable testing instructions and project guidance.
 
-Address the findings and repeat the reviews until no actionable findings remain.
+Address actionable findings and verify the corrections with proportionate checks. Repeat the independent review only when the user explicitly requests it.
 
-Treat the Waypoint as verified only when every perspective reports no actionable findings on the same final state of the complete, integrated implementation.
+Treat the Waypoint as verified only when the review for its initial implementation is complete, its actionable findings are addressed, and the resulting final state passes those checks.
 
 Once the result is implemented and verified, keep the Waypoint current and return control without planning the next one.
