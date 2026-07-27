@@ -49,7 +49,7 @@ Capture the destination and only boundaries that should shape how later Waypoint
 
 ## Write the Waypoint
 
-Keep at most one unfinished Waypoint per Questline. Allocate a local integer only when the user explicitly asks to make specified work the Questline's next deliverable or accepts your proposal to do so. That approval authorizes immediate draft creation and later updates that persist settled choices about the same deliverable; do not seek separate permission for either. Allocate a successor only after the current Waypoint is implemented and verified or explicitly abandoned. Authorization to perform the work, even when it is substantial or bounded, is not that choice. When work clearly merits a Waypoint, propose its boundary and ask the user whether to make it the next Waypoint. If the user declines, proceed with the requested work without changing `.questline/`. Pad the identifier to at least three digits and never renumber or reuse identifiers. Replace an unaccepted draft in place when its deliverable is discarded. If an accepted Waypoint is abandoned, record that outcome in its file so it remains historical intent.
+Keep at most one unfinished Waypoint per Questline. Allocate a local integer only when the user explicitly asks to make specified work the Questline's next deliverable or accepts your proposal to do so. That approval authorizes immediate draft creation and later updates that persist settled choices about the same deliverable; do not seek separate permission for either. Allocate a successor only after the current Waypoint is implemented and its stated evidence confirms it was reached or it is explicitly abandoned. Authorization to perform the work, even when it is substantial or bounded, is not that choice. When work clearly merits a Waypoint, propose its boundary and ask the user whether to make it the next Waypoint. If the user declines, proceed with the requested work without changing `.questline/`. Pad the identifier to at least three digits and never renumber or reuse identifiers. Replace an unaccepted draft in place when its deliverable is discarded. If an accepted Waypoint is abandoned, record that outcome in its file so it remains historical intent.
 
 ```text
 .questline/<questline>/NNN_snake_case_title.md
@@ -80,12 +80,4 @@ Present only the completed draft for review and keep its file current with each 
 
 When requested implementation or later verification, correction, refinement, or simplification continues the same bounded deliverable and the user has not explicitly selected a new-Waypoint boundary, work against the current accepted Waypoint. Never reopen an abandoned or historical Waypoint. Reconcile non-material learning into the current Waypoint as needed to keep the accepted deliverable accurate. If work on that deliverable would materially change its result, proof, public contract, boundary, consequential commitments, or accepted risks, stop implementation, restore its draft marker before revising it, return to shared understanding, and regain acceptance before proceeding. If the work instead forms a genuinely new bounded deliverable, do not fold it into the current Waypoint; follow the allocation rule above. Do not expand the current Waypoint with adjacent features. Apply the same Compass rule throughout implementation.
 
-After completing the initial implementation of an accepted Waypoint, review that complete, integrated implementation once from three perspectives, dispatching independent reviewers in parallel when supported and using separate review passes otherwise: correctness, maintainability, and any material security or performance concerns raised by the change.
-
-The maintainability review should favor the simplest clear solution: fewer layers, convention over configuration, and no speculative edge-case handling. It should also verify affected tests against applicable testing instructions and project guidance.
-
-Address actionable findings and verify the corrections with proportionate checks. Repeat the independent review only when the user explicitly requests it.
-
-Treat the Waypoint as verified only when the review for its initial implementation is complete, its actionable findings are addressed, and the resulting final state passes those checks.
-
-Once the result is implemented and verified, keep the Waypoint current and return control without planning the next one.
+Once the result is implemented and the Waypoint's stated evidence confirms it was reached, keep the Waypoint current and return control without planning the next one.
