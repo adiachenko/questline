@@ -11,7 +11,7 @@
 ## How it works
 
 1. Invoke `/questline` with the description of the goal you want to advance. The agent uses a matching Questline or starts one for a new goal.
-2. Agree with the agent on what to tackle next and roughly how much it should cover. Once you confirm it as the next Waypoint, the agent creates a marked draft and updates it as you work through the important decisions. When the draft is ready, the agent asks you to approve it.
+2. Agree with the agent on the next deliverable's direction and rough scope. Once you confirm it as the next Waypoint, the agent creates a marked draft and keeps it current with settled decisions as you work through consequential questions. When its result, proof, and boundaries are settled, the agent presents that draft for acceptance.
 3. Ask the agent to implement the approved Waypoint. When using Codex, Goal mode is recommended for keeping longer implementation runs attached to it. If implementation reveals that the Waypoint needs to change, the agent revises it with you and waits for approval before continuing.
 4. Repeat for the next Waypoint. When you stop pursuing the goal, remove its folder or preserve it elsewhere; every folder left in `.questline/` is active.
 
@@ -42,11 +42,11 @@ A Questline is one active, scoped software goal. Its directory under `.questline
 
 ### Waypoint
 
-A Waypoint starts as a marked draft for the next piece of work you agree to tackle. The agent updates it as you make decisions together. Once you approve it, the Waypoint guides the implementation and keeps a record of what you agreed.
+A Waypoint starts as a marked draft when you confirm the next bounded deliverable. It accumulates the settled result, evidence, decisions, and boundaries as you shape them with the agent. Once accepted, it becomes the agreement that guides implementation and preserves what was settled. A status line under its title tracks the lifecycle — draft, accepted, verified — so any session can resume from the files alone. Abandoning a Waypoint means deleting its file; its number is never reused.
 
 ### Compass
 
-Each Questline's `compass.md` records its goal and the long-term direction that should carry across Waypoints. The agent updates it when that direction changes and uses it to keep later Waypoints aligned and catch conflicts with other active Questlines. Decisions that matter only to the current Waypoint stay in that Waypoint. You do not edit or approve the Compass separately; if its direction needs to change, the agent discusses that change with you first.
+Each Questline's `compass.md` records its goal and the durable boundaries that should guide more than one Waypoint. The agent maintains it when settled decisions or relevant implementation learning change that longer-lived direction, using it to align later Waypoints and surface conflicts across active Questlines. Decisions that define only the current deliverable stay in its Waypoint. You do not maintain or approve the Compass separately; if the direction itself needs to change, the agent discusses that decision with you first.
 
 ## Pitfalls
 
