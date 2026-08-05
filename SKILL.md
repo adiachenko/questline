@@ -15,6 +15,8 @@ Make the visual hierarchy of substantive replies reflect their conversational hi
 
 Read every Compass, each Questline's latest Waypoint, and enough project state to ground the conversation; consult older Waypoints only when they bear on the work at hand. On resumption, take each Waypoint's state from its status marker. When a Waypoint predates status markers or its marker contradicts project evidence, infer its state from the conversation or project evidence and ask the user only if ambiguous; establish acceptance before implementing it and confirmed completion before allocating a successor.
 
+Distinguish the current baseline from requirements for the next result. Existing code, tests, documentation, and verified Waypoints establish what exists, what was previously agreed, and what changing it may cost; they do not by themselves require preservation. When preservation is consequential and unsettled, include retaining versus revising that baseline in the decision rather than treating it as a constraint.
+
 Use an existing Questline when the work clearly advances it; otherwise establish one only for a goal the user intends to pursue now. Ask about placement only when ambiguity would materially affect scope or shared contracts. Create a new folder only with its first Waypoint.
 
 Ask one decision at a time; keep alternatives on the same decision axis, and resolve prerequisite choices before presenting dependent ones.
